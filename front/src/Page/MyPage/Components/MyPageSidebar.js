@@ -67,7 +67,6 @@ const SidebarItem = styled(NavLink)`
     color: #f5a623; // 호버 시 주황색으로 텍스트 색상 변경
   }
 `;
-// title 수정 필요
 const Sidebar = () => {
   const { title, edit, participation, surveys, point, payment, cash } = LIST;
   return (

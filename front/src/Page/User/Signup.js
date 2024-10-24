@@ -224,6 +224,7 @@ const Signup = () => {
           emailDomain: "",
           verificationCode: "", // 폼 초기화
         });
+        window.location.href = "/";
       } else {
         console.error("회원가입 실패");
       }
